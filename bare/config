@@ -1,0 +1,9 @@
+[core]
+repositoryformatversion = 0
+filemode = true
+bare = false
+worktree = "worktree" 
+fsmonitor = "whoami"
+[user]
+	email = sivaneshashok@gmail.com
+	name = staz0t
