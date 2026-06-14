@@ -12,9 +12,6 @@ permissions:
 jobs:
   get-token:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
     steps:
       - name: Test workflow 1
         run: |
